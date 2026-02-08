@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="UTF-8">
+        <title>our 1st valentines</title>
+        <link rel="stylesheet" href="valentines.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="heart">❤</div>
+            <h1>HAPPY VALENTINES DAY</h1>
+            <h2>To someone that makes my day</h2>
+            <p>
+                This is a journey through our beautiful moments together.<br>
+            Every photo, every laugh, every memory – they all lead to you.
+            </p>
+            <div class="scroll">
+                Scroll to see more 
+                <div class="arrow">⌄</div>
+            </div>
+        </div>
+
+        <section class="valentines section">
+            <div class="heart">❤</div>
+            <h1>Its Valentines day babyyy 😘</h1>
+            <div class="valentines card">
+                <p>
+                    Happy valentines day baby, I love you so much like you are part of me now. I know its hard
+                    and sometimes feels unfair that other couples get to be together but us in long-distance, but with you
+                    every call, every text doesnt even let me feel like we are km's away because you are always in my 
+                    heart. I LOVE YOU 😘
+                </p>
+            </div>
+        </section>
+
+        <section class="Journey">
+            <h2>Our Journey so far...</h2>
+            <p class="subtitle">
+                Every moment with you is a memory worth remembering.
+            </p>
+            <div class="gallery">
+                <div class="photo-card">
+                    <img src="images/pic1.jpeg" alt="pic1">
+                    <p>My cutieee 😘</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/pic2.jpeg" alt="pic2">
+                    <p>I love you baby</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/pic3.jpeg" alt="pic3">
+                    <p>You hottt</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/pic4.jpeg" alt="pic4">
+                    <p>Goofy us</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/pic5.jpeg" alt="pic5">
+                    <p>We are always goofy</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/pic6.jpeg" alt="pic6">
+                    <p>Always us ♾️</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="message-section">
+        <h2>Important Message</h2>
+        
+        <div class="envelope-container">
+            <div class="envelope">
+                <div class="envelope-flap"></div>
+                
+                <div class="letter">
+                    <p>
+                        PLEASE don't put your hands in the boiling milk  
+                        to check if it's hot again 😭❤️
+                    </p>
+                </div>
+            </div>
+            
+            <button id="openBtn">Open Envelope 💌</button>
+        </div>
+    </section>
+    
+    <script>
+        const openBtn = document.getElementById("openBtn");
+        const envelope = document.querySelector(".envelope");
+        
+        openBtn.addEventListener("click", () => {
+            envelope.classList.toggle("open");
+        });
+        
+    </script>
+    </body>
+</html>
